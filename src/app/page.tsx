@@ -33,11 +33,6 @@ export default function Home() {
     },
     {
       type: "video",
-      src: "/images/MORE EAGLES.mp4",
-      alt: "Gallery Video 1",
-    },
-    {
-      type: "video",
       src: "/images/More jesse based god.mp4",
       alt: "Gallery Video 2",
     },
