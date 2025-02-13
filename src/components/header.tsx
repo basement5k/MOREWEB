@@ -62,7 +62,7 @@ export default function Header() {
               className="transition-transform hover:scale-105"
             >
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Buy%20$MORE%20button-Z6oaS458qip2vf4HVPRXKSX2BrVnDJ.png"
+                src="/images/Buy $MORE button.png"
                 alt="Buy $MORE"
                 width={300}
                 height={45}
