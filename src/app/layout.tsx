@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: 'MORE CLANKER MORE BASED MORE COMMUNITY MORE GROWTH',
     images: [
       {
-        url: '/images/Dex Profile Image $MORE.jpg', // Add your image path here
+        url: '/images/more thumbnail.png', // Add your image path here
         width: 1200,
         height: 630,
         alt: 'MORE BASED Preview Image',
