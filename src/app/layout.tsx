@@ -7,8 +7,20 @@ import { Toaster } from "@/components/ui/toaster"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Landing Page",
-  description: "A landing page with DexScreener chart and custom buttons",
+  title: 'MORE BASED',
+  description: 'MORE CLANKER MORE BASED MORE COMMUNITY MORE GROWTH',
+  openGraph: {
+    title: 'MORE BASED',
+    description: 'MORE CLANKER MORE BASED MORE COMMUNITY MORE GROWTH',
+    images: [
+      {
+        url: '/images/Dex Profile Image $MORE.jpg', // Add your image path here
+        width: 1200,
+        height: 630,
+        alt: 'MORE BASED Preview Image',
+      },
+    ],
+  },
 }
 
 export default function RootLayout({
