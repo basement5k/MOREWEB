@@ -40,13 +40,6 @@ const vehicles = [
     ]
   },
   {
-    title: "Japanese Import 1989 Mitsubishi Pajero Intercooler Turbo Wagon - Diesel",
-    image: "/images/prado1.jpg",
-    gallery: [
-     
-    ]
-  },
-  {
     title: "1975 Mercedes Benz 450 SLC",
     image: "/images/MB450-1.jpg",
     gallery: [
