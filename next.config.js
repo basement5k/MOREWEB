@@ -21,6 +21,7 @@ const nextConfig = {
         pathname: '/**',
       }
     ],
+    domains: ['hebbkx1anhila5yf.public.blob.vercel-storage.com'],
   },
 }
 
