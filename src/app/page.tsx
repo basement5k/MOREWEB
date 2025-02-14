@@ -11,13 +11,13 @@ import { useState } from "react"
 const vehicles = [
   {
     title: "1990 BMW E30 325i",
-    image: "/images/bmw1.jpg",
+    image: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw1.jpg",
     gallery: [
-      "/images/bmw2.jpg",
-      "/images/bmw3.jpg",
-      "/images/bmw4.jpg",
-      "/images/bmw5.jpg",
-      "/images/bmw6.jpg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw2.jpg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw3.jpg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw4.jpg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw5.jpg",
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bmw6.jpg",
     ]
   }
   

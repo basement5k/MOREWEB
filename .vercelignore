@@ -1,0 +1,7 @@
+README.md
+.git
+.env*
+.next
+node_modules
+public/images/*
+public/audio/* 
