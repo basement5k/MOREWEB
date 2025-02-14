@@ -30,14 +30,6 @@ const vehicles = [
       "/images/jeep5.jpg",
       "/images/jeep6.jpg",
     ]
-  },
-  {
-    title: "1990s Mitsubishi Delica L300",
-    image: "/images/delica1.jpg",
-    gallery: [
-      "/images/Delica 2.jpg",
-      "/images/Delica3.jpg",
-    ]
   }
   
   // Add more vehicles as needed
