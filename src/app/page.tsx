@@ -19,17 +19,6 @@ const vehicles = [
       "/images/bmw5.jpg",
       "/images/bmw6.jpg",
     ]
-  },
-  {
-    title: "1989 Jeep Grand Wagoneer V8 4x4",
-    image: "/images/jeep1.jpg",
-    gallery: [
-      "/images/jeep2.png",
-      "/images/jeep3.png",
-      "/images/jeep4.jpg",
-      "/images/jeep5.jpg",
-      "/images/jeep6.jpg",
-    ]
   }
   
   // Add more vehicles as needed
