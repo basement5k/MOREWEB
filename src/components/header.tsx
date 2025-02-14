@@ -32,20 +32,47 @@ export default function Header() {
     }, 100) // Small delay to ensure navigation has completed
   }
 
+  const scrollToUV = () => {
+    // First, navigate to the home page if not already there
+    router.push("/")
+
+    // Then, scroll to the gallery section
+    setTimeout(() => {
+      const uvSection = document.getElementById("unique-vehicles")
+      if (uvSection) {
+        uvSection.scrollIntoView({ behavior: "smooth" })
+      }
+    }, 100) // Small delay to ensure navigation has completed
+  }
+
   return (
-    <header className="fixed top-0 left-0 right-0 bg.svg w-full py-6 z-50 shadow-lg backdrop-blur-sm bg-white/30">
-      <div className="container mx-auto px-4">
-        <nav className="flex justify-between items-center">
-          <div className="flex-grow cursor-pointer" onClick={scrollToSoundboard}>
-            <Image
-              src="/images/MORE BASED.png"
-              alt="$MORE BASED"
-              width={400}
-              height={70}
-              className="cursor-pointer"
-            />
-          </div>
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-md shadow-md">
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex justify-between items-center">
           <div className="flex items-center gap-4">
+            <div 
+              onClick={scrollToUV}
+              className="transition-transform hover:scale-105 cursor-pointer"
+            >
+              <Image
+                src="/images/newuv.png"
+                alt="Unique Vehicles"
+                width={400}
+                height={70}
+                priority
+              />
+            </div>
+          </div>
+          <nav className="flex items-center gap-6">
+            <div className="ftransition-transform hover:scale-105" onClick={scrollToSoundboard}>
+              <Image
+                src="/images/MORE BASED.png"
+                alt="$MORE BASED"
+                width={410}
+                height={70}
+                className="cursor-pointer"
+              />
+            </div>
             <div onClick={scrollToGallery} className="transition-transform hover:scale-105">
               <Image
                 src="/images/gallery.png"
@@ -69,8 +96,8 @@ export default function Header() {
                 className="cursor-pointer"
               />
             </a>
-          </div>
-        </nav>
+          </nav>
+        </div>
       </div>
     </header>
   )
