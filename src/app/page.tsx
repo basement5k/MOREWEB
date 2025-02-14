@@ -38,16 +38,7 @@ const vehicles = [
       "/images/Delica 2.jpg",
       "/images/Delica3.jpg",
     ]
-  },
-  {
-    title: "1975 Mercedes Benz 450 SLC",
-    image: "/images/MB450-1.jpg",
-    gallery: [
-      "/images/MB450-2.jpg",
-      "/images/MB450-3.jpg",
-      "/images/MB450-4.jpg",
-    ]
-  },
+  }
   
   // Add more vehicles as needed
 ]
